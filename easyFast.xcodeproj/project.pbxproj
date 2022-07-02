@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		973C5ED627EF5C7200D3FBE6 /* easyFastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C5ED527EF5C7200D3FBE6 /* easyFastTests.swift */; };
 		9757DE0D27EE14AE0010F5A2 /* easyFastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757DE0C27EE14AE0010F5A2 /* easyFastApp.swift */; };
 		9757DE0F27EE14AE0010F5A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757DE0E27EE14AE0010F5A2 /* ContentView.swift */; };
 		9757DE1127EE14B20010F5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9757DE1027EE14B20010F5A2 /* Assets.xcassets */; };
 		9757DE1427EE14B20010F5A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9757DE1327EE14B20010F5A2 /* Preview Assets.xcassets */; };
+		9757DE1C27EE15080010F5A2 /* Fast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757DE1B27EE15080010F5A2 /* Fast.swift */; };
+		9757DE2127EE16080010F5A2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757DE2027EE16080010F5A2 /* HomeView.swift */; };
+		9757DE2427EE1F770010F5A2 /* MenuTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9757DE2327EE1F770010F5A2 /* MenuTabView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		973C5ED027EF5A7800D3FBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9757DE0127EE14AE0010F5A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9757DE0827EE14AE0010F5A2;
+			remoteInfo = easyFast;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		973C5ECC27EF5A7800D3FBE6 /* easyFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easyFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		973C5ED527EF5C7200D3FBE6 /* easyFastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyFastTests.swift; sourceTree = "<group>"; };
 		9757DE0927EE14AE0010F5A2 /* easyFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easyFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9757DE0C27EE14AE0010F5A2 /* easyFastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = easyFastApp.swift; sourceTree = "<group>"; };
 		9757DE0E27EE14AE0010F5A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9757DE1027EE14B20010F5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9757DE1327EE14B20010F5A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9757DE1B27EE15080010F5A2 /* Fast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast.swift; sourceTree = "<group>"; };
+		9757DE2027EE16080010F5A2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9757DE2327EE1F770010F5A2 /* MenuTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		973C5EC927EF5A7800D3FBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9757DE0627EE14AE0010F5A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		973C5ECD27EF5A7800D3FBE6 /* easyFastTests */ = {
+			isa = PBXGroup;
+			children = (
+				973C5ED527EF5C7200D3FBE6 /* easyFastTests.swift */,
+			);
+			path = easyFastTests;
+			sourceTree = "<group>";
+		};
 		9757DE0027EE14AE0010F5A2 = {
 			isa = PBXGroup;
 			children = (
 				9757DE0B27EE14AE0010F5A2 /* easyFast */,
+				973C5ECD27EF5A7800D3FBE6 /* easyFastTests */,
 				9757DE0A27EE14AE0010F5A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				9757DE0927EE14AE0010F5A2 /* easyFast.app */,
+				973C5ECC27EF5A7800D3FBE6 /* easyFastTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +87,9 @@
 		9757DE0B27EE14AE0010F5A2 /* easyFast */ = {
 			isa = PBXGroup;
 			children = (
+				9757DE1E27EE15B30010F5A2 /* Core */,
+				9757DE1D27EE15AB0010F5A2 /* Features */,
+				9757DE1A27EE14C90010F5A2 /* Models */,
 				9757DE0C27EE14AE0010F5A2 /* easyFastApp.swift */,
 				9757DE0E27EE14AE0010F5A2 /* ContentView.swift */,
 				9757DE1027EE14B20010F5A2 /* Assets.xcassets */,
@@ -67,9 +106,67 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9757DE1A27EE14C90010F5A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9757DE1B27EE15080010F5A2 /* Fast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9757DE1D27EE15AB0010F5A2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9757DE1F27EE15CC0010F5A2 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9757DE1E27EE15B30010F5A2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9757DE2227EE1F4C0010F5A2 /* NavBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9757DE1F27EE15CC0010F5A2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9757DE2027EE16080010F5A2 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9757DE2227EE1F4C0010F5A2 /* NavBar */ = {
+			isa = PBXGroup;
+			children = (
+				9757DE2327EE1F770010F5A2 /* MenuTabView.swift */,
+			);
+			path = NavBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		973C5ECB27EF5A7800D3FBE6 /* easyFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973C5ED227EF5A7800D3FBE6 /* Build configuration list for PBXNativeTarget "easyFastTests" */;
+			buildPhases = (
+				973C5EC827EF5A7800D3FBE6 /* Sources */,
+				973C5EC927EF5A7800D3FBE6 /* Frameworks */,
+				973C5ECA27EF5A7800D3FBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				973C5ED127EF5A7800D3FBE6 /* PBXTargetDependency */,
+			);
+			name = easyFastTests;
+			productName = easyFastTests;
+			productReference = 973C5ECC27EF5A7800D3FBE6 /* easyFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9757DE0827EE14AE0010F5A2 /* easyFast */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9757DE1727EE14B20010F5A2 /* Build configuration list for PBXNativeTarget "easyFast" */;
@@ -97,6 +194,11 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					973C5ECB27EF5A7800D3FBE6 = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+						TestTargetID = 9757DE0827EE14AE0010F5A2;
+					};
 					9757DE0827EE14AE0010F5A2 = {
 						CreatedOnToolsVersion = 13.3;
 					};
@@ -116,11 +218,19 @@
 			projectRoot = "";
 			targets = (
 				9757DE0827EE14AE0010F5A2 /* easyFast */,
+				973C5ECB27EF5A7800D3FBE6 /* easyFastTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		973C5ECA27EF5A7800D3FBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9757DE0727EE14AE0010F5A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,10 +243,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		973C5EC827EF5A7800D3FBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973C5ED627EF5C7200D3FBE6 /* easyFastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9757DE0527EE14AE0010F5A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9757DE1C27EE15080010F5A2 /* Fast.swift in Sources */,
+				9757DE2427EE1F770010F5A2 /* MenuTabView.swift in Sources */,
+				9757DE2127EE16080010F5A2 /* HomeView.swift in Sources */,
 				9757DE0F27EE14AE0010F5A2 /* ContentView.swift in Sources */,
 				9757DE0D27EE14AE0010F5A2 /* easyFastApp.swift in Sources */,
 			);
@@ -144,7 +265,64 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		973C5ED127EF5A7800D3FBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9757DE0827EE14AE0010F5A2 /* easyFast */;
+			targetProxy = 973C5ED027EF5A7800D3FBE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		973C5ED327EF5A7800D3FBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3K2497LK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAgyakwa.easyFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easyFast.app/easyFast";
+			};
+			name = Debug;
+		};
+		973C5ED427EF5A7800D3FBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3K2497LK5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DavidAgyakwa.easyFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/easyFast.app/easyFast";
+			};
+			name = Release;
+		};
 		9757DE1527EE14B20010F5A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +498,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		973C5ED227EF5A7800D3FBE6 /* Build configuration list for PBXNativeTarget "easyFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973C5ED327EF5A7800D3FBE6 /* Debug */,
+				973C5ED427EF5A7800D3FBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9757DE0427EE14AE0010F5A2 /* Build configuration list for PBXProject "easyFast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
